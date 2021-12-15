@@ -1,0 +1,6 @@
+<launch>
+   <!-- Launch a LineFollower node and pass any necessary parameters -->
+
+   <node name="LineFollower" pkg="lab3" type="line_follower.py" output="screen" />
+
+</launch>

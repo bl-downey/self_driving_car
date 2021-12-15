@@ -1,0 +1,6 @@
+<launch>
+   <!-- Launch a LineFollower node and pass any necessary parameters -->
+
+   <node name="LaserWanderer" pkg="lab3" type="laser_wanderer.py" output="screen" />
+
+</launch>
